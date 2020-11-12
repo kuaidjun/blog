@@ -1,10 +1,10 @@
 
-baseURL = "https://example.com"
+# baseURL = "https://example.com"
 languageCode = "zh-CN"
 title = "米司博客-世界上有10种人，一种懂二进制，一种不懂二进制"
 theme = "cactus"
 copyright = "Misitebao" # cactus will use title if copyright is not set
-disqusShortname = "example" # Used when comments is enabled. Cactus will use site title if not set
+disqusShortname = "misitebao" # Used when comments is enabled. Cactus will use site title if not set
 # googleAnalytics = "UA-1234-5"
 
 
@@ -12,27 +12,27 @@ disqusShortname = "example" # Used when comments is enabled. Cactus will use sit
 
 # Main menu which appears below site header.
 [[menu.main]]
-name = "Home"
+name = "主页"
 url = "/"
 weight = 1
 
 [[menu.main]]
-name = "Writings"
+name = "写作"
 url = "/posts"
 weight = 2
 
 [[menu.main]]
-name = "Categories"
+name = "分类"
 url = "/categories"
 weight = 3
 
 [[menu.main]]
-name = "Tags"
+name = "标签"
 url = "/tags"
 weight = 4
 
 [[menu.main]]
-name = "About"
+name = "关于我"
 url = "/about"
 weight = 5
 
@@ -44,12 +44,13 @@ weight = 5
 
 [params]
 
+  logo = "https://cdn.jsdelivr.net/gh/misitebao/CDN@master/gravatar.png" # logo
   colortheme = "white" # dark, light, white, or classic
   rss = true # generate rss feed. default value is false
   googleAnalyticsAsync = true # use asynchronous tracking. Synchronous tracking by default
 
   # Home page settings
-  description = "米司特包"
+  description = "米司博客-世界上有10种人，一种懂二进制，一种不懂二进制"
   mainSection = "posts" # your main section
   showAllPostsOnHomePage = false # default
   postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
